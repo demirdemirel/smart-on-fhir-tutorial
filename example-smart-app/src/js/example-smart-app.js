@@ -131,6 +131,9 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
+    $('#kkk').html(p.kkk);
+    $('#tkk').html(p.tkk);
+    
   };
 
 })(window);
