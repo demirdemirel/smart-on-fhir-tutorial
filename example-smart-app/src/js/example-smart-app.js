@@ -30,6 +30,7 @@
 
           var fname = '';
           var lname = '';
+          var kkk ='';
 
           if (typeof patient.name[0] !== 'undefined') {
             fname = patient.name[0].given.join(' ');
@@ -41,6 +42,8 @@
           var diastolicbp = getBloodPressureValue(byCodes('55284-4'),'8462-4');
           var hdl = byCodes('2085-9');
           var ldl = byCodes('2089-1');
+          kkk=byCodes('social-history');
+          var tkk=byCodes('72166-2');
 
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
@@ -83,6 +86,8 @@
       diastolicbp: {value: ''},
       ldl: {value: ''},
       hdl: {value: ''},
+      kkk: {value: ''},
+      tkk: {value: ''},
     };
   }
 
